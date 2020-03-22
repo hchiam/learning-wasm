@@ -8,7 +8,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 - <https://mbebenita.github.io/WasmExplorer>
 - <https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm>
 
-## `example.wasm`:
+## `example.wasm` (when you use a VS Code extension to convert from binary):
 
 ```wasm
 (module
