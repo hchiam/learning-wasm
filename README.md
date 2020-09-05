@@ -7,6 +7,8 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 - <https://www.youtube.com/watch?v=LNqicUieSqI>
 - <https://mbebenita.github.io/WasmExplorer>
 - <https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm>
+- <https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API>
+- <https://github.com/mdn/webassembly-examples>
 
 ## `example.wasm` (when you use a VS Code extension to convert from binary):
 
