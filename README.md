@@ -24,3 +24,9 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   (export "memory" (memory 0))
   (export "_Z3addii" (func $_Z3addii)))
 ```
+
+## Go from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
+
+<https://www.assemblyscript.org>
+<https://github.com/AssemblyScript/assemblyscript>
+<https://wasmbyexample.dev/examples/hello-world/hello-world.assemblyscript.en-us.html>
