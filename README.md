@@ -27,6 +27,4 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## Go from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
 
-<https://www.assemblyscript.org>
-<https://github.com/AssemblyScript/assemblyscript>
-<https://wasmbyexample.dev/examples/hello-world/hello-world.assemblyscript.en-us.html>
+(See the subfolder `as`)
