@@ -27,4 +27,4 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## Go from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
 
-(See the subfolder `as`)
+(See the subfolder [`as`](https://github.com/hchiam/learning-wasm/tree/master/as))
