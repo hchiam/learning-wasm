@@ -1,0 +1,21 @@
+{
+  "name": "assembly-script-example",
+  "version": "1.0.0",
+  "description": "- <https://www.assemblyscript.org> - <https://github.com/AssemblyScript/assemblyscript> - <https://www.assemblyscript.org/quick-start.html> - <https://wasmbyexample.dev/examples/hello-world/hello-world.assemblyscript.en-us.html>",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests",
+    "asbuild:untouched": "asc assembly/index.ts --target debug",
+    "asbuild:optimized": "asc assembly/index.ts --target release",
+    "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@assemblyscript/loader": "^0.14.12",
+    "assemblyscript": "^0.14.12"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.14.12"
+  }
+}
