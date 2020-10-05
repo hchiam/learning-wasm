@@ -11,7 +11,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 Just run this one line of code in CLI: (triple click to select all)
 
 ```bash
-git clone https://github.com/hchiam/learning-wasm.git && cd learning-wasm && cd as && yarn && yarn go
+git clone https://github.com/hchiam/learning-wasm.git && cd learning-wasm/assembly-script-example && yarn && yarn go
 ```
 
 ## Or starting from scratch:
