@@ -2,6 +2,12 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+**Quick start:** triple click the following to select all, and then run it in CLI:
+
+```bash
+git clone https://github.com/hchiam/learning-wasm.git && cd learning-wasm/assembly-script-example && npm i && npm run go
+```
+
 ## Run Wasm in localhost:
 
 **Very high-level summary:** Wasm <-- can be built from AssemblyScript (which looks very much like TypeScript/JavaScript).
