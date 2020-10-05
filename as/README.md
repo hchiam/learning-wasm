@@ -2,6 +2,8 @@
 
 Wasm <-- AssemblyScript (kinda like TypeScript/JavaScript)
 
+index.html <-- demo.js <-- build/optimized.wasm <-- (built from assembly/index.ts using [`asc`](https://github.com/hchiam/learning-wasm/blob/master/as/package.json#L8))
+
 ## Starting from my repo
 
 Triple click to select all:
