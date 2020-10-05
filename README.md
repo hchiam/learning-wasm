@@ -6,7 +6,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 **Very high-level summary:** Wasm <-- can be built from AssemblyScript (which looks very much like TypeScript/JavaScript).
 
-**Conceptual code "flow":** index.html <-- demo.js <-- build/optimized.wasm <-- (built from assembly/index.ts using [`asc`](https://github.com/hchiam/learning-wasm/blob/master/as/package.json#L8)).
+**Conceptual code "flow":** index.html <-- demo.js <-- build/optimized.wasm <-- (built from assembly/index.ts using [`asc`](https://github.com/hchiam/learning-wasm/blob/master/assembly-script-example/package.json#L7-L9)).
 
 Just run this one line of code in CLI: (triple click to select all)
 
