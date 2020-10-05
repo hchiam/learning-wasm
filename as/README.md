@@ -1,15 +1,27 @@
-# Go from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
+# Go from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm
 
-(If you're running from this repo directly, just do `yarn` and then `yarn go`)
+## Starting from my repo
 
 ```bash
-npm init
+git clone https://github.com/hchiam/learning-wasm.git
+cd learning-wasm/as
+yarn
+yarn go
+```
+
+## Starting from scratch
+
+```bash
+mkdir example-assemblyscript
+cd example-assemblyscript
+npm init -y
 yarn add @assemblyscript/loader
 yarn --dev add assemblyscript static-server
 npx asinit .
 # add "start": "open http://localhost:9080; static-server" in package.json
 # (edit /assembly/index.ts and in asconfig.json and then continue:)
 touch demo.js index.html
+# fill in demo.js and index.html with something like that in this repo sub-folder
 ```
 
 and then from then on:
@@ -19,7 +31,7 @@ yarn asbuild
 yarn start # open http://localhost:9080; static-server
 ```
 
-<detail>
+<details>
 <summary>Non-essential notes, just in case:</summary>
 
 - `./assembly`: Directory holding the AssemblyScript sources being compiled to WebAssembly.
@@ -38,4 +50,4 @@ yarn start # open http://localhost:9080; static-server
 - <https://wasmbyexample.dev/examples/hello-world/hello-world.assemblyscript.en-us.html>
 - This tutorial finally got it working for me: <https://blog.logrocket.com/the-introductory-guide-to-assemblyscript> and <https://github.com/dguo/assemblyscript-demo>
 
-</detail>
+</details>
