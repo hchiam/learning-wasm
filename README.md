@@ -4,9 +4,13 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## [Run Wasm in localhost](https://github.com/hchiam/learning-wasm/tree/master/as#run-webassembly-in-localhost):
 
-Convert from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
+Just run this one line of code in CLI: (triple click to select all)
 
-(See example in subfolder [`/as`](https://github.com/hchiam/learning-wasm/tree/master/as))
+```bash
+git clone https://github.com/hchiam/learning-wasm.git && cd learning-wasm && cd as && yarn && yarn go
+```
+
+Details in code example in subfolder [`/as`](https://github.com/hchiam/learning-wasm/tree/master/as)
 
 ## [`example.wasm`](https://github.com/hchiam/learning-wasm/blob/master/example.wasm) (when you use a VS Code extension to convert from binary):
 

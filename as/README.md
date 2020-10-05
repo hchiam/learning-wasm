@@ -1,8 +1,8 @@
 # Run WebAssembly in localhost
 
-Wasm <-- AssemblyScript (kinda like TypeScript/JavaScript)
+**Very high-level summary:** Wasm <-- AssemblyScript (which is kinda like TypeScript/JavaScript).
 
-index.html <-- demo.js <-- build/optimized.wasm <-- (built from assembly/index.ts using [`asc`](https://github.com/hchiam/learning-wasm/blob/master/as/package.json#L8))
+**Conceptual code flow:** index.html <-- demo.js <-- build/optimized.wasm <-- (built from assembly/index.ts using [`asc`](https://github.com/hchiam/learning-wasm/blob/master/as/package.json#L8)).
 
 ## Starting from my repo
 
