@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-## [Run Wasm in localhost](https://github.com/hchiam/learning-wasm/tree/master/as#starting-from-my-repo):
+## [Run Wasm in localhost](https://github.com/hchiam/learning-wasm/tree/master/as#run-webassembly-in-localhost):
 
 Convert from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
 
