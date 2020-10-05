@@ -16,6 +16,12 @@ git clone https://github.com/hchiam/learning-wasm.git && cd learning-wasm/assemb
 
 (You might need to refresh `http://localhost:9080/`. Don't forget to hit Ctrl+C in CLI to shutdown the server.)
 
+If you don't have [`yarn`](https://github.com/hchiam/learning-yarn), run this one-liner instead:
+
+```bash
+git clone https://github.com/hchiam/learning-wasm.git && cd learning-wasm/assembly-script-example && npm i && npm run go
+```
+
 ## Or starting from scratch:
 
 ```bash
