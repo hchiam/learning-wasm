@@ -1,11 +1,5 @@
 # Go from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
 
-- <https://www.assemblyscript.org>
-- <https://github.com/AssemblyScript/assemblyscript>
-- <https://www.assemblyscript.org/quick-start.html>
-- <https://wasmbyexample.dev/examples/hello-world/hello-world.assemblyscript.en-us.html>
-- This tutorial finally got it working for me: <https://blog.logrocket.com/the-introductory-guide-to-assemblyscript> and <https://github.com/dguo/assemblyscript-demo>
-
 (If you're running from this repo directly, just do `npm install` and then `yarn asbuild && yarn start`)
 
 ```bash
@@ -37,5 +31,11 @@ yarn start # open http://localhost:9080; static-server
 - `./tests/index.js`: Example test to check that your module is indeed working.
 - `./asconfig.json`: Configuration file defining both a 'debug' and a 'release' target.
 - `./package.json`: Package info containing the necessary commands to compile to WebAssembly.
+
+- <https://www.assemblyscript.org>
+- <https://github.com/AssemblyScript/assemblyscript>
+- <https://www.assemblyscript.org/quick-start.html>
+- <https://wasmbyexample.dev/examples/hello-world/hello-world.assemblyscript.en-us.html>
+- This tutorial finally got it working for me: <https://blog.logrocket.com/the-introductory-guide-to-assemblyscript> and <https://github.com/dguo/assemblyscript-demo>
 
 </detail>
