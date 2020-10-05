@@ -6,7 +6,7 @@
 - <https://wasmbyexample.dev/examples/hello-world/hello-world.assemblyscript.en-us.html>
 - This tutorial finally got it working for me: <https://blog.logrocket.com/the-introductory-guide-to-assemblyscript> and <https://github.com/dguo/assemblyscript-demo>
 
-(If you're running from this repo directly, just do `npm install` and then `yarn asbuild; yarn start`)
+(If you're running from this repo directly, just do `npm install` and then `yarn asbuild && yarn start`)
 
 ```bash
 npm init
