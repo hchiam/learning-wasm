@@ -1,12 +1,13 @@
-# Go from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm
+# Run WebAssembly in localhost
+
+Wasm <-- AssemblyScript (kinda like TypeScript/JavaScript)
 
 ## Starting from my repo
 
+Triple click to select all:
+
 ```bash
-git clone https://github.com/hchiam/learning-wasm.git
-cd learning-wasm/as
-yarn
-yarn go
+git clone https://github.com/hchiam/learning-wasm.git && cd learning-wasm && cd as && yarn && yarn go
 ```
 
 ## Starting from scratch
@@ -43,7 +44,6 @@ yarn start # open http://localhost:9080; static-server
 - `./tests/index.js`: Example test to check that your module is indeed working.
 - `./asconfig.json`: Configuration file defining both a 'debug' and a 'release' target.
 - `./package.json`: Package info containing the necessary commands to compile to WebAssembly.
-
 - <https://www.assemblyscript.org>
 - <https://github.com/AssemblyScript/assemblyscript>
 - <https://www.assemblyscript.org/quick-start.html>

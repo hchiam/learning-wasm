@@ -2,15 +2,13 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-## Helpful resources:
+## [Run Wasm in localhost](https://github.com/hchiam/learning-wasm/tree/master/as#starting-from-my-repo):
 
-- <https://www.youtube.com/watch?v=LNqicUieSqI>
-- <https://mbebenita.github.io/WasmExplorer>
-- <https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm>
-- <https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API>
-- <https://github.com/mdn/webassembly-examples>
+Convert from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
 
-## `example.wasm` (when you use a VS Code extension to convert from binary):
+(See example in subfolder [`/as`](https://github.com/hchiam/learning-wasm/tree/master/as))
+
+## [`example.wasm`](https://github.com/hchiam/learning-wasm/blob/master/example.wasm) (when you use a VS Code extension to convert from binary):
 
 ```wasm
 (module
@@ -25,6 +23,15 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
   (export "_Z3addii" (func $_Z3addii)))
 ```
 
-## Go from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
+## Some general resources:
 
-(See the subfolder [`as`](https://github.com/hchiam/learning-wasm/tree/master/as))
+<details>
+<summary>(click to expand)</summary>
+
+- <https://www.youtube.com/watch?v=LNqicUieSqI>
+- <https://mbebenita.github.io/WasmExplorer>
+- <https://marketplace.visualstudio.com/items?itemName=dtsvet.vscode-wasm>
+- <https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API>
+- <https://github.com/mdn/webassembly-examples>
+
+</details>
