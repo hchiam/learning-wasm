@@ -8,7 +8,8 @@
     "asbuild:untouched": "asc assembly/index.ts --target debug",
     "asbuild:optimized": "asc assembly/index.ts --target release",
     "asbuild": "npm run asbuild:untouched && npm run asbuild:optimized",
-    "start": "open http://localhost:9080; static-server"
+    "start": "open http://localhost:9080; static-server",
+    "go": "yarn asbuild && yarn start"
   },
   "author": "",
   "license": "MIT",

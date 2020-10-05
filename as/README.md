@@ -1,6 +1,6 @@
 # Go from AssemblyScript (kinda like TypeScript/JavaScript) to Wasm:
 
-(If you're running from this repo directly, just do `npm install` and then `yarn asbuild && yarn start`)
+(If you're running from this repo directly, just do `yarn` and then `yarn go`)
 
 ```bash
 npm init
