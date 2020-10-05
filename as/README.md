@@ -13,7 +13,8 @@ npm init
 yarn add @assemblyscript/loader
 yarn --dev add assemblyscript static-server
 npx asinit .
-# (edit stuff in /assembly and in asconfig.json and then continue:)
+# add "start": "open http://localhost:9080; static-server" in package.json
+# (edit /assembly/index.ts and in asconfig.json and then continue:)
 touch demo.js index.html
 ```
 

@@ -1,7 +1,7 @@
 {
   "name": "assembly-script-example",
   "version": "1.0.0",
-  "description": "- <https://www.assemblyscript.org> - <https://github.com/AssemblyScript/assemblyscript> - <https://www.assemblyscript.org/quick-start.html> - <https://wasmbyexample.dev/examples/hello-world/hello-world.assemblyscript.en-us.html>",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node tests",
