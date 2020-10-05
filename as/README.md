@@ -4,13 +4,22 @@
 - <https://github.com/AssemblyScript/assemblyscript>
 - <https://www.assemblyscript.org/quick-start.html>
 - <https://wasmbyexample.dev/examples/hello-world/hello-world.assemblyscript.en-us.html>
+- This tutorial finally got it working for me: <https://blog.logrocket.com/the-introductory-guide-to-assemblyscript> and <https://github.com/dguo/assemblyscript-demo>
 
 ```bash
 npm init
-yarn add @assemblyscript/loader assemblyscript
+yarn add @assemblyscript/loader
+yarn --dev add assemblyscript static-server
 npx asinit .
 # (edit stuff in /assembly and in asconfig.json and then continue:)
+touch demo.js index.html
+```
+
+and then from then on:
+
+```bash
 yarn asbuild
+yarn start # open http://localhost:9080; static-server
 ```
 
 <detail>

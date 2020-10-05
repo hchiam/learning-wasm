@@ -1,12 +1,12 @@
 (module
- (type $i32_i32_=>_i32 (func (param i32 i32) (result i32)))
  (type $i32_=>_none (func (param i32)))
  (type $i32_i32_=>_none (func (param i32 i32)))
  (type $i32_i32_i32_=>_none (func (param i32 i32 i32)))
+ (type $i32_=>_i32 (func (param i32) (result i32)))
+ (type $i32_i32_=>_i32 (func (param i32 i32) (result i32)))
  (type $none_=>_none (func))
  (type $i32_i32_i32_i32_=>_none (func (param i32 i32 i32 i32)))
  (type $none_=>_i32 (func (result i32)))
- (type $i32_=>_i32 (func (param i32) (result i32)))
  (type $i32_i32_i32_=>_i32 (func (param i32 i32 i32) (result i32)))
  (import "env" "abort" (func $~lib/builtins/abort (param i32 i32 i32 i32)))
  (memory $0 1)
@@ -23,7 +23,7 @@
  (export "__release" (func $~lib/rt/pure/__release))
  (export "__collect" (func $~lib/rt/pure/__collect))
  (export "__rtti_base" (global $~lib/rt/__rtti_base))
- (export "add" (func $assembly/index/add))
+ (export "isPrime" (func $assembly/index/isPrime))
  (func $~lib/rt/tlsf/removeBlock (param $0 i32) (param $1 i32)
   (local $2 i32)
   (local $3 i32)
@@ -1095,10 +1095,38 @@
    call $~lib/rt/pure/decrement
   end
  )
- (func $assembly/index/add (param $0 i32) (param $1 i32) (result i32)
+ (func $assembly/index/isPrime (param $0 i32) (result i32)
+  (local $1 i32)
   local.get $0
-  local.get $1
-  i32.add
+  i32.const 2
+  i32.lt_u
+  if
+   i32.const 0
+   return
+  end
+  i32.const 2
+  local.set $1
+  loop $for-loop|0
+   local.get $1
+   local.get $0
+   i32.lt_u
+   if
+    local.get $0
+    local.get $1
+    i32.rem_u
+    i32.eqz
+    if
+     i32.const 0
+     return
+    end
+    local.get $1
+    i32.const 1
+    i32.add
+    local.set $1
+    br $for-loop|0
+   end
+  end
+  i32.const 1
  )
  (func $~lib/rt/pure/__collect
   nop
