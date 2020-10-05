@@ -14,6 +14,8 @@ Just run this one line of code in CLI: (triple click to select all)
 git clone https://github.com/hchiam/learning-wasm.git && cd learning-wasm/assembly-script-example && yarn && yarn go
 ```
 
+(You might need to refresh `http://localhost:9080/`. Don't forget to hit Ctrl+C in CLI to shutdown the server.)
+
 ## Or starting from scratch:
 
 ```bash
