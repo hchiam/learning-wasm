@@ -2,6 +2,10 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+WASM basically enables writing web apps in languages other than JavaScript, with near native performance. Compilation target for performance.
+
+WASM in 100 seconds: <https://www.youtube.com/watch?v=cbB3QEwWMlA>
+
 **Quick start:** triple click the following to select all, and then run it in CLI:
 
 ```bash
